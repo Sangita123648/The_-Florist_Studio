@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World!</h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Florist Studio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+background:#fff;
+color:#333;
+line-height:1.6;
+}
+
+/* Header */
+
+header{
+background:#f8d7e2;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#6b2d3b;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#6b2d3b;
+font-weight:500;
+}
+
+/* Hero */
+
+.hero{
+height:80vh;
+background:url("https://images.unsplash.com/photo-1490750967868-88aa4486c946") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:60px;
+background:rgba(0,0,0,0.4);
+padding:20px 40px;
+border-radius:10px;
+}
+
+/* Sections */
+
+section{
+padding:70px 10%;
+text-align:center;
+}
+
+h2{
+margin-bottom:20px;
+color:#c94f7c;
+}
+
+/* Services */
+
+.services{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+justify-content:center;
+}
+
+.card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Gallery */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+/* Contact */
+
+.contact{
+background:#f8d7e2;
+border-radius:10px;
+}
+
+/* Footer */
+
+footer{
+background:#6b2d3b;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">🌸 The Florist Studio</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+
+<div class="hero">
+<h1>Beautiful Flowers For Every Moment</h1>
+</div>
+
+
+<section>
+<h2>About The Florist Studio</h2>
+<p>
+At The Florist Studio we design elegant and fresh flower arrangements for weddings,
+events, gifts, and special occasions. Every bouquet is handcrafted with love and creativity.
+</p>
+</section>
+
+
+<section>
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Wedding Florals</h3>
+<p>Luxury bouquets and venue decoration for weddings.</p>
+</div>
+
+<div class="card">
+<h3>Event Decoration</h3>
+<p>Creative floral styling for birthdays, parties, and events.</p>
+</div>
+
+<div class="card">
+<h3>Custom Bouquets</h3>
+<p>Handcrafted flower bouquets made specially for you.</p>
+</div>
+
+</div>
+</section>
+
+
+<section>
+<h2>Flower Gallery</h2>
+
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+<img src="https://images.unsplash.com/photo-1526045478516-99145907023c">
+<img src="https://images.unsplash.com/photo-1470259078422-826894b933aa">
+<img src="https://images.unsplash.com/photo-1496065187959-7f07b8353c55">
+</div>
+
+</section>
+
+
+<section class="contact">
+<h2>Contact Us</h2>
+<p>📍 Your City</p>
+<p>📞 +91 00000 00000</p>
+<p>📧 thefloriststudio@email.com</p>
+</section>
+
+
+<footer>
+<p>© 2026 The Florist Studio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
